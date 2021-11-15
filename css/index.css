@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +8,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'EB Garamond', serif;
 }
 
 li {
@@ -99,6 +100,120 @@ a {
   height: 400px;
 }
 
+h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 6rem;
+  padding-top: 2%;
+}
+
+.diseñobolsa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 2%;
+  background-color: burlywood;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.diseñobolsa .textodiseñobolsa {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.diseñobolsa .textodiseñobolsa h4 {
+  font-size: 4.9rem;
+  color: #ba181b;
+  background-color: white;
+  margin-left: 4%;
+  margin-top: -2%;
+}
+
+.diseñobolsa .textodiseñobolsa p {
+  font-size: 1.8rem;
+  margin-top: 3%;
+  background-color: white;
+  margin-left: 3%;
+}
+
+.diseñobolsa .imagendiseñobolsa {
+  background-color: red;
+  width: 350%;
+}
+
+.diseñobolsa .imagendiseñobolsa img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1143px) {
+  .diseñobolsa {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 2%;
+    background-color: burlywood;
+  }
+  .diseñobolsa .textodiseñobolsa {
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .diseñobolsa .textodiseñobolsa h4 {
+    font-size: 4.9rem;
+    color: #ba181b;
+    padding-top: 2%;
+    background-color: white;
+  }
+  .diseñobolsa .textodiseñobolsa p {
+    font-size: 1.8rem;
+    background-color: white;
+    margin-left: 3%;
+  }
+  .diseñobolsa .imagendiseñobolsa {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: white;
+    width: 100%;
+  }
+  .diseñobolsa .imagendiseñobolsa img {
+    padding-top: 2%;
+    width: 600px;
+  }
+}
+
 @media only screen and (max-width: 712px) {
   .nav-menu {
     position: fixed;
@@ -150,6 +265,64 @@ a {
     font-size: 3rem;
     font-weight: bolder;
     padding-top: 5%;
+  }
+  h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 4.8rem;
+    padding-top: 2%;
+  }
+  .diseñobolsa {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 2%;
+    background-color: burlywood;
+  }
+  .diseñobolsa .textodiseñobolsa {
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .diseñobolsa .textodiseñobolsa h4 {
+    font-size: 3.6rem;
+    color: #ba181b;
+    padding-top: 2%;
+    background-color: white;
+  }
+  .diseñobolsa .textodiseñobolsa p {
+    font-size: 1.8rem;
+    background-color: white;
+    margin-left: 3%;
+  }
+  .diseñobolsa .imagendiseñobolsa {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: white;
+    width: 100%;
+  }
+  .diseñobolsa .imagendiseñobolsa img {
+    padding-top: 2%;
+    width: 450px;
   }
 }
 /*# sourceMappingURL=index.css.map */

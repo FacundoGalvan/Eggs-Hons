@@ -8,7 +8,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'EB Garamond', serif;
 }
 
 li {
@@ -94,7 +94,102 @@ a {
   }
 }
 
-// MEDIA QUERIES
+//DISEÑO BOLSA 
+
+h3{
+  display: flex;
+  justify-content: center;
+  font-size: 6rem;
+  padding-top: 2%;
+}
+
+.diseñobolsa{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    background-color: burlywood;
+    justify-content: space-between;
+
+    .textodiseñobolsa{
+      background-color: white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        h4{
+          font-size: 4.9rem;
+          color: #ba181b;
+          background-color:white;
+          margin-left: 4%;
+          margin-top: -2%;
+        }
+        p{
+          font-size: 1.8rem;
+          margin-top: 3%;
+          background-color: white;
+          margin-left: 3%;
+        }
+    }
+
+    .imagendiseñobolsa{
+      background-color: red;
+      width: 350%;
+      img{
+        width: 100%;
+      }
+    }
+}
+
+// MEDIA QUERIES 1143PX ONLY DISEÑO BOLSA 
+
+@media only screen and (max-width: 1143px) {
+  .diseñobolsa{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    background-color: burlywood;
+
+    .textodiseñobolsa{
+      background-color: white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        h4{
+          font-size: 4.9rem;
+          color: #ba181b;
+          padding-top: 2%;
+          background-color:white;
+        }
+        p{
+          font-size: 1.8rem;
+          background-color: white;
+          margin-left: 3%;
+        }
+    }
+
+    .imagendiseñobolsa{
+      display: flex;
+      justify-content: center;
+      background-color: white;
+      width: 100%;
+
+      img{
+        padding-top: 2%;
+        width: 600px;
+      }
+    }
+}
+}
+
+
+// FIN MEDIA QUERIES ONLY DISEÑO BOLSA 
+
+
+
+
+
+
+
+//MEDIA QUERIES 712PX
 
 @media only screen and (max-width: 712px) {
   .nav-menu {
@@ -146,5 +241,49 @@ a {
     font-weight: bolder;
     padding-top: 5%;
 }
+}
+
+h3{
+  display: flex;
+  justify-content: center;
+  font-size: 4.8rem;
+  padding-top: 2%;
+}
+
+.diseñobolsa{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  background-color: burlywood;
+
+  .textodiseñobolsa{
+    background-color: white;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      h4{
+        font-size: 3.6rem;
+        color: #ba181b;
+        padding-top: 2%;
+        background-color:white;
+      }
+      p{
+        font-size: 1.8rem;
+        background-color: white;
+        margin-left: 3%;
+      }
+  }
+
+  .imagendiseñobolsa{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+
+    img{
+      padding-top: 2%;
+      width: 450px;
+    }
+  }
 }
 }
