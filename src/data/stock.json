@@ -1,0 +1,8 @@
+[
+    {"id": 1, "nombre": "Caja 18 Huevos", "tipo": "comida", "desc": "$250", "precio": 250, "img": "./src/assets/img/caja18.jpg", "cantidad":1},
+    {"id": 2, "nombre": "Maple + Bolsa", "tipo": "comida", "desc": "$800", "precio": 800, "img": "./src/assets/img/mapleybolsa.jpg", "cantidad":1},
+    {"id": 3, "nombre": "Maple Color", "tipo": "comida", "desc": "$600", "precio": 600, "img": "./src/assets/img/maplecolor.jpg", "cantidad":1},
+    {"id": 4, "nombre": "3 Maple ", "tipo": "comida", "desc": "$1500", "precio": 1500, "img": "./src/assets/img/3maple.jpg", "cantidad":1},
+    {"id": 5, "nombre": "Caja 6 Huevos", "tipo": "comida", "desc": "$80", "precio": 80, "img": "./src/assets/img/caja6huevos.jpg", "cantidad":1},
+    {"id": 6, "nombre": "2 Maple Color", "tipo": "comida", "desc": "$1100", "precio": 1100, "img": "./src/assets/img/2maplecolor.jpg", "cantidad":1}
+]
